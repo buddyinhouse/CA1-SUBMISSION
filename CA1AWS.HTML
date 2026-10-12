@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: blue;">
+   <center> <h1><b>
+        ABC COLLEGE
+    </b> </h1></body></center>
+    <center><h2>WELCOME TO THE CAMPUS BOOK EXCHANGE SERVICE.</h2></center>
+    <p>here u can exchange your old books for new ones. you can also sell your old books and buy new ones.this platform helps to ensure a smooth and efficient exchange process.</p>
+    <table border="solid">
+        <tr style="background-color:rgb(230, 173, 173)">
+            <td>name of the book</td>
+            <td>author</td>
+            <td>category</td>
+            
+        </tr>
+        <tr style="background-color:rgb(200, 230, 173)">
+            <td>the great gatsby</td>
+            <td>F. Scott Fitzgerald</td>
+            <td>Fiction</td>
+
+        </tr>
+        <tr style="background-color:rgb(230, 193, 173)">
+            <td>to kill a mockingbird</td>
+            <td>Harper Lee</td>
+            <td>Fiction</td>
+        </tr>
+        <tr style="background-color:rgb(187, 173, 230)">
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td>Dystopian</td>
+        </tr>
+        <a href="https://www.goodreads.com/book/show/4671.The_Great_Gatsby" target="_blank">click here to know more about the great gatsby</a>
+
+        <div>
+            <h1 id="main-heading">LIST OF BOOKS</h1>
+           <button id="change-text-btn">Change Heading</button>
+
+        </div>
+    <script>
+        let mainHeading = document.getElementById('main-heading');
+        let changeTextBtn = document.getElementById('change-text-btn');
+
+        changeTextBtn.addEventListener('click', function(){
+            mainHeading.textContent = "Updated List of Books";
+        });
+        
+        
+        
+</script>
+</body>
+</html>
